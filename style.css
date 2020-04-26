@@ -1,0 +1,26 @@
+body {
+    background-color: 	#aeb7d2;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 20px;
+}
+header, footer {
+    background-color: #85645d;
+    border-radius: 10px;
+    text-align: center;
+}
+img {
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px; 
+}
+h2 {
+    border-bottom: 2px solid #85645d;
+}
+h1 {
+    padding: 4px;
+}
+p {
+    padding: 4px;
+    margin: 0px;
+}
