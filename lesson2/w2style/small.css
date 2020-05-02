@@ -14,6 +14,7 @@ img {
     margin-right: 100px;
     margin-top: 10px; 
     width: 320px;
+    padding-left: 1px;
 }
 h2 {
     border-bottom: 2px solid #85645d;
@@ -35,4 +36,13 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 2px;
+}
+section {
+    border: 2px solid black;
+    margin: 2px;
+}
+h4 {
+    border-bottom: 2px solid #85645d;
+    margin-bottom: 4px;
+    padding: 4px;
 }
