@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     font-size: 20px;
+    text-align: center;
 }
 header, footer {
     background-color: #85645d;
@@ -10,9 +11,9 @@ header, footer {
     text-align: center;
 }
 img {
-    float: right;
     margin-right: 100px;
     margin-top: 10px; 
+    width: 320px;
 }
 h2 {
     border-bottom: 2px solid #85645d;
@@ -24,4 +25,14 @@ h1 {
 p {
     padding: 4px;
     margin: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2px;
 }
