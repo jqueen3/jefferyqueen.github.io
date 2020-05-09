@@ -1,0 +1,9 @@
+@media (min-width: 960px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-between;
+
+    }
+    
+}

@@ -2,24 +2,26 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     font-size: 20px;
-    text-align: right;
     background-color: #8FDEFF;
+    font-family: 'Oswald', sans-serif;
+    color: #CC856E;
 }
 footer {
     text-align: center;
     background-color: #182F99;
 }
-p {
-    font-family: 'Oswald', sans-serif;
-    text-decoration-color: #CC856E;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'EB Garamond', serif;
     background-color: #182F99;
-    text-decoration-color: #CC856E;
+    color: #CC856E;
 }
-nav {
+nav ul {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+}
+img {
+    width: 150px;
 }

@@ -1,5 +1,8 @@
 @media (min-width: 640px) {
-    nav {
+    nav ul {
     flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+
     }
 }
