@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #8FDEFF;
+}
+footer {
+    text-align: center;
+    background-color: #182F99;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+    text-decoration-color: #CC856E;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    background-color: #182F99;
+    text-decoration-color: #CC856E;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    
+}
