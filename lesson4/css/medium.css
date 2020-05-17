@@ -9,21 +9,19 @@
 
     nav ul {
         margin-left: 2%;
-
     }
 
     nav ul li {
-        display: flex;
-        justify-content: center;
+        float: left;
     }
+
+
 
     nav ul li a {
         border: none;
         border-right: 1px solid #CC856E;
         padding: .8rem 1rem;
     }
-
-    
 
 
 }
