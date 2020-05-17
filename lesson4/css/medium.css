@@ -23,5 +23,9 @@
         padding: .8rem 1rem;
     }
 
+    nav ul li:nth-child(1) {
+        border-left: 1px solid #CC856E;
+    }
+
 
 }
