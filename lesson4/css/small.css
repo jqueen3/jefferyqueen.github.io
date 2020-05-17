@@ -5,15 +5,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav button{
+    display: flex
+    flex-direction: column;
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #555;
+    color: #182F99;
 }
 
 nav {
-    background-color: #ccc;
+    background-color: #FFE1CF;
     font-family:Verdana, sans-serif;
 }
 
@@ -27,22 +29,74 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #000;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    color: #182F99;
+    border-top: 1px solid #CC856E;
 }
 
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    background-color: #CC856E;
+    color: #FFE1CF;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: #CC856E;
+    color: #FFE1CF;
 }
 
 nav ul.hide {
     display: none;
 }
+
+header img {
+    max-width: 75px;
+    float: left;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: .8rem 2%;
+}
+
+header p {
+    margin: 0;
+    padding-top: .2rem;
+    padding-bottom: 1.3rem;
+}
+
+header {
+    background-color: #CC856E;
+    color: #FFE1CF;
+    text-align: center;
+}
+
+
+
+body {
+    background-color: #8FDEFF;
+    color: #182F99;
+}
+
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+    background-color: #FFE1CF;
+    padding: .8rem 2%;
+}
+
+footer {
+    background-color: #FFE1CF;
+    text-align: center;
+}
+
+/* -- colors
+#8FDEFF
+#182F99
+#CC856E
+#FFE1CF
+#5E71CC
+-- */
+
+
+
 
 
 /*------ Clearfix: force an Element not to collapse -------*/

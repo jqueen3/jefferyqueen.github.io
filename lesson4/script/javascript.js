@@ -7,5 +7,5 @@ let modified = document.lastModified;
 document.getElementById("date").textContent = modified;
 
 function toggleMenu() {
-    document.getElementById("primaryNav").classlist.toggle("hide");
+    document.getElementById("primaryNav").classList.toggle("hide");
 }
