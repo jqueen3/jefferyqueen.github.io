@@ -37,16 +37,16 @@ nav ul li a {
     padding: .8rem 2%;
     text-decoration: none;
     color: #182F99;
-    border-top: 1px solid #CC856E;
+    border-top: 1px solid #C96D63;
 }
 
 nav ul li.active a {
-    background-color: #CC856E;
+    background-color: #C96D63;
     color: #FFE1CF;
 }
 
 nav ul li a:hover {
-    background-color: #CC856E;
+    background-color: #C96D63;
     color: #FFE1CF;
 }
 
@@ -75,7 +75,7 @@ header p {
 }
 
 header {
-    background-color: #CC856E;
+    background-color: #C96D63;
     color: #FFE1CF;
     text-align: center;
 }
@@ -162,7 +162,7 @@ section.address {
 /* -- colors
 #8FDEFF
 #182F99
-#CC856E
+#C96D63
 #FFE1CF
 #5E71CC
 -- */
