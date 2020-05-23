@@ -67,13 +67,12 @@
     }
 
     div.contact {
-        display: grid;
-        grid-row: 1fr 1fr;
+        display: flex;
+        justify-content: space-around;
     }
 
-    iframe {
-        grid-row: 1/2;
-        width: 450px;
-        height: 400px
+    section.address {
+        text-align: left;
+        margin-right: 20%;
     }
 }
