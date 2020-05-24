@@ -14,8 +14,8 @@ html {
 
 
 nav {
-    background-color: #FFE1CF;
-    font-family: 'Oswasld', sans-serif;
+    background-color: #728C58;
+    font-family: 'Oswald', sans-serif;
 }
 
 nav button {
@@ -23,7 +23,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #182F99;
+    color: #F2CDAC;
 }
 
 nav ul {
@@ -36,22 +36,18 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #182F99;
-    border-top: 1px solid #C96D63;
+    color: #F2CDAC;
+    border-top: 1px solid #294033;
 }
 
 nav ul li.active a {
-    background-color: #C96D63;
-    color: #FFE1CF;
+    background-color: #294033;
+    color: #F2CDAC;
 }
 
 nav ul li a:hover {
-    background-color: #C96D63;
-    color: #FFE1CF;
-}
-
-nav ul li.active a:hover {
-    color: #182F99;
+    background-color: #C8D7DE;
+    color: #294033;
 }
 
 nav ul.hide {
@@ -60,7 +56,6 @@ nav ul.hide {
 
 header img {
     max-width: 75px;
-    float: left;
 }
 
 header h1 {
@@ -75,16 +70,18 @@ header p {
 }
 
 header {
-    background-color: #C96D63;
-    color: #FFE1CF;
-    text-align: center;
+    background-color: #F2CDAC;
+    color: #294033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 body {
-    background-color: #8FDEFF;
-    color: #182F99;
+    background-color: antiquewhite;
+    color: #294033;
     display: flex;
     flex-direction: column;
     min-height: fit-content;
@@ -97,7 +94,6 @@ main h3,
 main h4,
 main h5,
 main h6 {
-    background-color: #FFE1CF;
     padding: .4rem 1%;
 }
 
@@ -111,7 +107,6 @@ main p {
 }
 
 footer {
-    background-color: #FFE1CF;
     text-align: center;
 }
 
@@ -156,15 +151,19 @@ section.address {
     text-align: center;
 }
 
+main, footer {
+    max-width: 850px;
+    margin: auto;
+}
+
 
 
 
 /* -- colors
-#8FDEFF
+antiquewhite
 #182F99
-#C96D63
-#FFE1CF
-#5E71CC
+#025949
+#024059
 -- */
 
 
