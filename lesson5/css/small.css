@@ -142,22 +142,55 @@ div.article h3 {
     padding-left: 1.2rem;
 }
 
-div.contact p {
-    margin: 0;
-    padding-bottom: 0;
-}
 
-section.address {
-    text-align: center;
-}
 
-main, footer {
+main,
+footer {
     max-width: 850px;
     margin: auto;
 }
 
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
 
+.summary {
+    position: absolute;
+    top: 10px;
+    left: 2rem;
+    background: radial-gradient(#eee, #F2CDAC);
+    border: 1px solid #294033;
+    padding: .25rem;
+}
 
+section.summary p,
+section.summary h3 {
+    padding: 1px;
+    margin: 0;
+}
+
+h2:nth-child(1) {
+    margin: 0;
+}
+
+div.article {
+    margin: 0 auto;
+    background: radial-gradient(#eee, #F2CDAC);
+    border: 1px solid #294033;
+}
+
+footer {
+    background-color: #728C58;
+}
+
+div.contact {
+    display: flex;
+}
+
+div.address {
+    justify-content: center;
+}
 
 /* -- colors
 antiquewhite

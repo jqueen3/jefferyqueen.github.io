@@ -34,24 +34,6 @@
         display: block;
     }
 
-    .herodiv {
-        margin: 10px auto;
-        position: relative;
-    }
-
-    .summary {
-        position: absolute;
-        top: 10px;
-        left: 2rem;
-        background: radial-gradient(#eee, #F2CDAC);
-        border: 1px solid #294033;
-        padding: .25rem;
-    }
-
-    section.summary p,
-    section.summary h3 {
-        margin: 0 auto;
-    }
 
     img.elephant {
         max-width: 45%;
