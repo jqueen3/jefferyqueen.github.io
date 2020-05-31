@@ -15,10 +15,22 @@ function toggleMenu() {
 
 // this bad boy is for the banner
 
-const banner = document.getElementById("banner");
+// const banner = document.getElementById("banner");
+// if (d.getDay() == 5) {
+    // document.getElementById("banner").style.display = "block";
+// }
+// else {
+    // document.getElementById("banner").style.display = "none";
+// }
+
+var newChild = document.createElement("p");
+var parent = document.getElementById("banner");
+newChild.innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
 if (d.getDay() == 5) {
-    document.getElementById("banner").style.display = "block";
+    parent.appendChild(newChild);
+    newChild.style.display = "block";
+    newChild.style.textAlign = "center";
 }
 else {
-    document.getElementById("banner").style.display = "none";
+    newChild.style.display = "none"; 
 }

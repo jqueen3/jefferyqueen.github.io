@@ -72,6 +72,9 @@ header p {
 header {
     background-color: #F2CDAC;
     color: #294033;
+}
+
+header div.main-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,6 +186,7 @@ div.article {
 
 footer {
     background-color: #728C58;
+    color: #294033;
 }
 
 div.contact {

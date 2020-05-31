@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Weather Dads | Preston</title>
+  <meta name="description" content="Week five assignment for WDD 230 Weather Site Preston">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+      <!-- <span>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</span> -->
+    </div>
+    <div class="main-header">
+      <img src="images/iconfinder_Climate_temperature_temperature_scale_thermometer_weather_4908129.png"
+        alt="Weather Dads Logo">
+      <div>
+        <h1>Weather Dads</h1>
+        <p>Whether dads need it or not.</p>
+      </div>
+    </div>
+
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="#">Home</a></li>
+      <li class="active"><a href="preston-4.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Photo Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+
+    <h2>Preston</h2>
+
+    <div class="herodiv">
+      <picture>
+        <source media="(maxwidth: 683px)" srcset="images/franklin683.jpg">
+        <source media="(maxwidth: 850px" srcset="images/franklin850.jpg">
+        <img src="images/franklin250.jpg" alt="Hero Image">
+      </picture>
+      <section class="summary">
+        <h3>Weather Summary</h3>
+        <p>Current: Sunny, <span id="temp">80</span>°</p>
+        <p>Today's High: 83°</p>
+        <p>Precipitation: 0%</p>
+        <p>Humidity: 46%</p>
+        <p>Wind Speed: <span id="wind">15</span> mph</p>
+        <p>Feels like: <span id="actual"></span></p>
+      </section>
+
+    </div>
+
+    <div class="forcast">
+
+      <h2>5 Day Forcast</h2>
+      <table>
+        <tr>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>75°</p>
+          </td>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>78°</p>
+          </td>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>72°</p>
+          </td>
+          <td><img src="images/partlycloudy.png" alt="Partly Cloudy Icon"><br>
+            <p>68°</p>
+          </td>
+          <td><img src="images/partlycloudy.png" alt="Partly Cloudy Icon"><br>
+            <p>65°</p>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="article">
+
+      <h2>Elephants in Preston</h2>
+      <h3>by Cactus Ezikiel</h3>
+      <p>Lorem, ipsum do Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas sunt tenetur enim,
+        architecto quidem quod beatae, repellendus ab sint culpa quis. Quo in distinctio molestiae corrupti cupiditate
+        incidunt totam!<img class="elephant" src="images/gray-elephant-1054666.jpg" alt="Gray Elephant">
+        lor sit amet consectetur adipisicing elit. Sapiente velit ducimus quae placeat quisquam magni
+        natus id officia dolor dolorem? Autem eius saepe veritatis molestiae rerum, officiis dolor natus sequi. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Consectetur maiores corrupti voluptas! Aperiam quae esse
+        suscipit nostrum incidunt, at eaque. Tempore a voluptas sit porro molestiae nostrum consequatur sed enim. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat labore est dignissimos impedit officiis nostrum,
+        porro asperiores? Quo rem unde sed voluptates. Sequi nesciunt perferendis nostrum vitae esse pariatur. Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet libero facilis soluta obcaecati, officiis
+        nostrum, tempore quod in possimus voluptate debitis optio, assumenda itaque placeat ea ut aliquid! Iste? Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quos aspernatur corrupti. Dolorum asperiores
+        facilis ratione veniam distinctio, mollitia quia et officia excepturi saepe, placeat voluptatum! Quia maiores
+        esse debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel, maxime voluptates minima
+        voluptatibus culpa! Tempore saepe dolor sapiente consequatur totam facilis praesentium, laudantium ullam
+        incidunt alias, velit explicabo quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+        quia obcaecati quis sed, laboriosam voluptatem possimus cum consequatur ipsa magnam velit? Quo hic adipisci
+        doloribus, fugit numquam at voluptate porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+        expedita iste sunt laudantium ipsa similique aliquid dicta sapiente praesentium enim eum sed, perspiciatis
+        commodi maxime. Expedita sunt assumenda odit at! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+        ab nostrum ullam a architecto blanditiis error, dolores perferendis suscipit dolorem maxime libero unde corporis
+        eum dolorum voluptates officia mollitia nemo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+        architecto voluptatibus at iure deleniti soluta. Deleniti dicta doloribus porro veniam ducimus commodi placeat?
+        Nemo soluta quia velit dignissimos et omnis!</p>
+    </div>
+
+    <div class=contact>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1590129743912!5m2!1sen!2sus"
+        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="address">
+        <p>Weather Dads</p>
+        <p>72 Hi Hungry Ave.</p>
+        <p>Preston, ID 83263</p>
+        <p>(208)-754-COOL</p>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Jeffery A. Queen | Nevada | <a href="https://www.byui.edu/online">BYUI Online
+        Learning</a></p>
+    <p><span id="date"></span></p>
+  </footer>
+
+  <script src="script/javascript.js"></script>
+  <script src="script/windchill.js"></script>
+
+</body>
+
+</html>
