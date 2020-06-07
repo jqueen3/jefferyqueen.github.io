@@ -82,34 +82,46 @@ header div.main-header {
     align-items: center;
 }
 
-
-
 body {
     background-color: antiquewhite;
     color: #294033;
-    display: flex;
-    flex-direction: column;
     min-height: fit-content;
 }
 
+main div.gallery {
+    display: grid;
 
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6 {
-    padding: .4rem 1%;
-}
-
-img {
-    width: 100%;
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
 
-main p {
-    padding: .8rem 2%;
+main picture {
+    margin: 1em;
+    border: 1px solid #294033;
+    background-color: #294033;
+    color:#F2CDAC;
+    max-width: 300px;
 }
+
+main picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+main picture img {
+    max-width: 100%;
+}
+
+main picture p {
+    text-align: right;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+/* img {
+    max-width: 400px;
+} */
 
 footer {
     text-align: center;
@@ -120,83 +132,14 @@ footer p {
     margin: 0;
 }
 
-.forcast {
-    display: none;
-}
-
-iframe {
-    width: 100%;
-}
-
-section.summary p {
-    padding-top: 0;
-    margin: 0;
-}
-
-section.summary h3 {
-    margin-bottom: 0;
-}
-
-div.article h2 {
-    margin: 0;
-    padding-bottom: 0;
-}
-
-div.article h3 {
-    padding-top: 0;
-    margin-top: 0;
-    padding-left: 1.2rem;
-}
-
-
-
 main,
 footer {
-    max-width: 850px;
-    margin: auto;
-}
-
-.herodiv {
-    margin: 10px auto;
-    position: relative;
-}
-
-.summary {
-    position: absolute;
-    top: 10px;
-    left: 2rem;
-    background: radial-gradient(#eee, #F2CDAC);
-    border: 1px solid #294033;
-    padding: .25rem;
-}
-
-section.summary p,
-section.summary h3 {
-    padding: 1px;
-    margin: 0;
-}
-
-h2:nth-child(1) {
-    margin: 0;
-}
-
-div.article {
-    margin: 0 auto;
-    background: radial-gradient(#eee, #F2CDAC);
-    border: 1px solid #294033;
+    margin: 1rem;
 }
 
 footer {
     background-color: #728C58;
     color: #294033;
-}
-
-div.contact {
-    display: flex;
-}
-
-div.address {
-    justify-content: center;
 }
 
 /* -- colors
