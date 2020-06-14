@@ -14,6 +14,7 @@ table {
     border: 1px solid grey;
     min-width: 275px;
     font-family: Ubuntu, sans-serif;
+    box-shadow: 5px 5px 8.5px gray;
 }
 
 /* Table head */
@@ -36,14 +37,19 @@ table tbody td {
     border: 1px solid grey;
 }
 
+.highlight {
+    background-color: #628ca6;
+    color:white;
+}
+
 table tbody tr:nth-child(even) {
     background-color: #e7f0ed;
 }
 
-table tbody tr.highlight {
+/* table tbody tr.highlight {
     background-color: #628ca6;
     color: white;
-}
+} */
 
 
 
