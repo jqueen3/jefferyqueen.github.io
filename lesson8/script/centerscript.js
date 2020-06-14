@@ -17,3 +17,8 @@ function toggleMenu() {
 function adjustRating(rating) {
     document.getElementById("rate").innerHTML = rating;
 }
+
+//for thanks page
+document.getElementById("submitButton").onclick = function submitStormForm() {
+    location.href = "lesson8/thanks.html";
+}
