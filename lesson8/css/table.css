@@ -1,0 +1,49 @@
+/* color scheme
+#e7f0ed
+#e7ffed
+#628ca6
+#7fb9c2 
+black
+white
+*/
+
+table {
+    text-align: center;
+    background-color: #e7ffed;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    min-width: 275px;
+    font-family: Ubuntu, sans-serif;
+}
+
+/* Table head */
+table th {
+    background-color: #7fb9c2;
+    font-size: 32px;
+    border: 1px solid grey;
+    padding: .5rem;
+}
+
+/* Table footer*/
+table tfoot td {
+    background-color: #7fb9c2;
+    border: 1px solid grey;
+    font-size: 12px;
+}
+
+/* Table body*/
+table tbody td {
+    border: 1px solid grey;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+table tbody tr.highlight {
+    background-color: #628ca6;
+    color: white;
+}
+
+
+
