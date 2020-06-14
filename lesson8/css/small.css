@@ -1,0 +1,139 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    min-height: fit-content;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #294033;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #FFD8B5;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #F2CDAC;
+    border-top: 2px solid #728C58;
+}
+
+nav ul li.active a {
+    background-color: #C8D7DE;
+    color: #294033;
+    text-decoration: underline #294033;
+}
+
+nav ul li a:hover {
+    background-color: #C8D7DE;
+    color: #294033;
+    text-decoration: underline #294033;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* header */
+
+header img {
+    max-width: 75px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: .8rem;
+}
+
+header p {
+    margin: 0;
+    padding-top: .2rem;
+    padding-bottom: 1.3rem;
+}
+
+header {
+    background-color: #728C58;
+}
+
+header div.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: .8rem 2%;
+    max-width: 850px
+}
+
+main h2 {
+    margin:.02rem;
+}
+
+footer p{
+    background-color: #728C58;
+    text-align: center;
+    margin: 0;
+}
+
+fieldset {
+    color: #294033;
+    border: 3px solid #294033;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+legend {
+    padding: 2px;
+}
+
+form input {
+    margin: 2px;
+    background-color: #294033;
+    color:#FFD8B5;
+}
+
+form ::-webkit-input-placeholder {
+    color: #FFD8B5;
+}
+
+textarea, select, button {
+    background-color: #294033;
+    color: #FFD8B5;
+}
+
+button {
+    margin-top: 10px;
+}
