@@ -1,0 +1,62 @@
+
+
+body {
+    background-color: antiquewhite;
+    max-height: fit-content;
+}
+
+header {
+    text-align: center;
+    color: darkblue;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+section {
+    min-width: 275px;
+    min-height: 300px;
+}
+
+img {
+    max-width: 150px;
+    box-shadow: 0 0 30px black;
+}
+
+h2, p {
+    margin: 4px;
+}
+
+section {
+    border: 2px solid blue;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+p:nth-last-of-type(odd) {
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: darkblue
+}
+
+@media screen and (min-width: 530px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 6px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
