@@ -93,6 +93,7 @@ main {
     padding: .8rem 2%;
     max-width: 850px;
     margin: auto;
+    text-align: center;
 }
 
 main h2 {
