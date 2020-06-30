@@ -82,6 +82,12 @@ header div.main-header {
     align-items: center;
 }
 
+header.pancakes {
+    background-color: #294033;
+    color: #FFD8B5;
+    text-align: center;
+}
+
 
 
 body {
