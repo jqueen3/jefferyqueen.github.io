@@ -64,6 +64,13 @@ header h1 {
     padding-top: .8rem;
 }
 
+header div.pancakes span p {
+    background-color: #294033;
+    color: #FFD8B5;
+    padding: 10px;
+    text-align: center;
+}
+
 header p {
     margin: 0;
     padding-top: .2rem;
@@ -79,13 +86,6 @@ header div.main-header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header div.pancakes span p {
-    background-color: #294033;
-    color: #FFD8B5;
-    padding: 10px;
-    text-align: center;
 }
 
 body {
