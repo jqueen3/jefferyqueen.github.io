@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Weather Dads | Storm Center</title>
+    <meta name="description" content="Week eight assignment for WDD 230 Weather Site Preston">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <!-- <span>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</span> -->
+        </div>
+        <div class="main-header">
+            <img src="images/iconfinder_Climate_temperature_temperature_scale_thermometer_weather_4908129.png"
+                alt="Weather Dads Logo">
+            <div>
+                <h1>Weather Dads</h1>
+                <p>Whether dads need it or not.</p>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="lesson7/gallery-7.html">Photo Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Storm Center</h2>
+        <form id="info" method="GET">
+            <fieldset>
+                <legend>Reporter</legend>
+                <label>Name
+                    <input placeholder="Your name" type="text" required autofocus></label>
+                <label>Email Address
+                    <input placeholder="Your Email Address" type="email" required></label>
+                <label>Phone Number
+                    <input placeholder="Your Phone Number" type="tel" required></label>
+                <label>Zip Code
+                    <input placeholder="Zip Code" type="number" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm</legend>
+                <label>Storm Date <input type="date" name="completeDate"></label>
+                <label>Storm Type
+                    <input type="text" list="stormtypes">
+                    <datalist id="stormtypes">
+                        <option value="Flash flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </label>
+                <label>Severity = <span id="rate">5</span>
+                    <input id="severity" type="range" name="range" value="5" min="1" max="10"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+                <label>Storm Region
+                    <select name="region">
+                        <option value="">Select Region</option>
+                        <option value="fish-haven">Fish Haven</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda spring">Soda Springs</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Danger and Additional Information</legend>
+                <div>User In Danger?</div>
+                <label><input type="radio" name="danger" id="danger1" value="Yes"> Yes</label>
+                <label><input type="radio" name="danger" id="danger2" value="No"> No</label>
+                <label><input type="radio" name="danger" id="danger3" value="Maybe"> Maybe</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label><textarea placeholder="Additional Info" mrequired></textarea></label>
+            </fieldset>
+            <button name="submit" type="submit" id="submitButton" onclick="submitStormForm()" required>Submit</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Jeffery A. Queen | Nevada | <a href="https://www.byui.edu/online">BYUI
+                Online
+                Learning</a></p>
+        <p><span id="date"></span></p>
+    </footer>
+
+    <script src="script/centerscript.js"></script>
+
+
+</body>
+
+</html>
