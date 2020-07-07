@@ -13,12 +13,12 @@ html {
 
 /* Navigation */
 nav {
-    background-color: #728C58;
+    background-color: #294033;
     font-family: 'Oswald', sans-serif;
 }
 
 nav button {
-    margin: .2rem 2%;
+    /* margin: .2rem 2%; */
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
@@ -35,13 +35,14 @@ nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #294033;
-    border-top: 1px solid #294033;
+    color: #FFD8B5;
+    /* border: 2px solid #294033; */
 }
 
 nav ul li.active a {
-    background-color: #294033;
-    color: #F2CDAC;
+    background-color: antiquewhite;
+    color: #294033;
+    /* border: 2px solid #294033; */
 }
 
 nav ul li a:hover {
@@ -78,8 +79,7 @@ header p {
 }
 
 header {
-    background-color: #F2CDAC;
-    color: #294033;
+    background-color: #728C58;
 }
 
 header div.main-header {
@@ -90,10 +90,12 @@ header div.main-header {
 
 body {
     background-color: antiquewhite;
-    color: #294033;
     display: flex;
     flex-direction: column;
     min-height: fit-content;
+}
+p {
+    font-size: 18px;
 }
 
 main h1,
@@ -154,6 +156,7 @@ main,
 footer {
     max-width: 850px;
     margin: auto;
+    padding: 4px;
 }
 
 footer:link {
@@ -180,6 +183,17 @@ section.summary h3 {
     margin: 0;
 }
 
+.town h2 {
+    border: 2px solid #294033;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: 6px;
+}
+
+div.article h2 {
+    border: none;
+}
+
 h2:nth-child(1) {
     margin: 0;
 }
@@ -201,6 +215,66 @@ div.contact {
 
 div.address {
     justify-content: center;
+}
+
+div.towninfo section {
+    background-color: #728C58;
+    margin: 1rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    }
+
+/* INDEX PAGE  */
+body.home div.towninfo p {
+    margin: 0;
+    padding: 4px;
+}
+
+
+
+
+/* PRESTON PAGE */
+div.article img.deer {
+    max-width: 50%;
+    float: right;
+    padding: 6px;
+}
+
+/* Storm Center */
+body.center main form {
+    padding: 4px;
+}
+
+body.center main fieldset {
+    color: #294033;
+    border: 3px solid #294033;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+body.center main legend {
+    padding: 2px;
+}
+
+body.center main form input {
+    margin: 2px;
+    background-color: #294033;
+    color:#FFD8B5;
+}
+
+body.center main form ::-webkit-input-placeholder {
+    color: #FFD8B5;
+}
+
+body.center main textarea, body.center main select, body.center main button {
+    background-color: #294033;
+    color: #FFD8B5;
+}
+
+body.center main button {
+    margin-top: 10px;
 }
 
 /* -- colors

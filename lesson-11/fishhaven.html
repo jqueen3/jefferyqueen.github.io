@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Weather Dads | Fish Haven</title>
+  <meta name="description" content="Week five assignment for WDD 230 Weather Site Preston">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body class="town">
+  <header>
+    <!-- <div class="pancakes">
+      <span><p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p></span>
+    </div> -->
+    <div class="main-header">
+      <img src="images/iconfinder_Climate_temperature_temperature_scale_thermometer_weather_4908129.png"
+        alt="Weather Dads Logo">
+      <div>
+        <h1>Weather Dads</h1>
+        <p>Whether dads need it or not.</p>
+      </div>
+    </div>
+
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="sodasprings.html">Soda Springs</a></li>
+      <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+
+    <h2>Fish Haven</h2>
+
+    <div class="herodiv">
+      <picture>
+        <source media="(maxwidth:250px)" srcset="images/franklin250.jpg">
+        <source media="(maxwidth: 683px)" srcset="images/franklin683.jpg">
+        <source media="(maxwidth: 850px" srcset="images/franklin850.jpg">
+        <img src="images/black-eyed-susan-in-idaho-3901097_640.jpg" alt="Hero Image">
+      </picture>
+      <section class="summary">
+        <h3>Weather Summary</h3>
+        <p>Current: Sunny, <span id="temp">80</span>°</p>
+        <p>Today's High: 83°</p>
+        <p>Precipitation: 0%</p>
+        <p>Humidity: 46%</p>
+        <p>Wind Speed: <span id="wind">15</span> mph</p>
+        <p>Feels like: <span id="actual"></span></p>
+        <p>Data Source: OpenWeatherMap</p>
+      </section>
+
+    </div>
+
+    <div class="forcast">
+
+      <h2>5 Day Forcast</h2>
+      <table>
+        <tr>
+          <th>Wed</th>
+          <th>Thurs</th>
+          <th>Fri</th>
+          <th>Sat</th>
+          <th>Sun</th>
+        </tr>
+        <tr>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>75°</p>
+          </td>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>78°</p>
+          </td>
+          <td><img src="images/sunnyicon.png" alt="Sunshine Icon"><br>
+            <p>72°</p>
+          </td>
+          <td><img src="images/partlycloudy.png" alt="Partly Cloudy Icon"><br>
+            <p>68°</p>
+          </td>
+          <td><img src="images/partlycloudy.png" alt="Partly Cloudy Icon"><br>
+            <p>65°</p>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="article">
+
+      <h2>Bear Lake Zero Suicide Task Force hold training</h2>
+      <h3>by BLMH</h3>
+      <p>The Bear Lake Zero Suicide Task Force recently held a live online training to help educate and empower members of the community. The purpose of the training was to give everyone attending an improved set of tools for being able to respond effectively when encountering someone that may be contemplating suicide.
+
+        The training called QPR (question, persuade, refer) is designed to help anyone be able to know what to say, encourage someone to seek help, and connect them with professionals and other resources. This training was presented in conjunction with Bear Lake Memorial Hospital, Southeastern Idaho Public Health, and the Bear Lake County School District. The training was free to attend and the funding was provided by The United Way of Southeastern Idaho. Training took place on June 3rd with an attendance of nearly 50 logged in users. It was felt to have been a great success. Multiple participants indicated that several members of their families were participating in the training together.
+        
+        The Zero Suicide Task Force has received a great deal of positive feedback from several of those in attendance. Vanessa Crookston shared “I really enjoyed the QPR training. It was informative and beneficial. I could have benefitted from having this training a long time ago. Over the past years I have had friends and family talk to me about different mental health challenges they were having. I always felt unsure how to respond to them and worried that my response might do more harm than good. This training helped me feel more comfortable and prepared to talk with friends and family struggling with mental illness and suicidal thoughts.”
+        
+        Another attendee Amy Blauer said “I’ve never had any type of suicide prevention training, but the QPR course helped me feel more prepared to help my friends and loved ones. It gave me a safe space to ask questions and troubleshoot situations I’ve encountered in the past. Equating QPR with CPR helped me really understand that I don’t have to be an expert in mental health to help someone who is considering suicide. I’m so glad I took this course. It increased my awareness, knowledge, and confidence that I can help others.” Several other religious and community leaders also attended the training. President Steven Hammond of the Montpelier Idaho Stake stated that he thought the training was excellent and that it helped him to know that “normal” people can help in these types of situations and know what to say and do to help reduce the stigma of getting help.
+        
+        With such interest and positive feedback, the Zero Suicide Task Force decided to offer additional training. The next QPR training is scheduled for July 1st at 7pm and lasts 90 minutes. Once again, it will be offered in an online format that allows for attendees to learn from the comfort of their own homes. Advertising for the event will be forthcoming on Facebook, through the News Examiner, KVSI, flyers throughout the valley, and through word of mouth.
+        
+        The Zero Suicide Task Force strongly supports the Suicide Prevention Walk that is scheduled for June 27th at 9am at the Bear Lake High School. That event is being led by Kandi Eborn and high school seniors Hallie Skinner, Teya Strong, and Halsey Grose. We would like to encourage all members of the community to attend, there is no charge for this training or to participate in the Suicide Prevention Walk. Details can be found on their individual Facebook events. The training on July 1st is designed for non-experts. They especially encourage anyone who works with the public or children in any way to take this training. The more members of the community with this training, the more people who will understand what to see, say, and do.</p>
+
+    </div>
+
+    <div class=contact>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1590129743912!5m2!1sen!2sus"
+        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="address">
+        <p>Weather Dads</p>
+        <p>72 Hi Hungry Ave.</p>
+        <p>Preston, ID 83263</p>
+        <p>(208)-754-COOL</p>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Jeffery A. Queen | Nevada | <a href="https://openweathermap.org/">Open Weather Map</a></p>
+    <p><span id="date"></span></p>
+  </footer>
+
+  <script src="javascript/script.js"></script>
+
+
+</body>
+
+</html>

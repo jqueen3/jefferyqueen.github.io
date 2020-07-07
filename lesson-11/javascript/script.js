@@ -17,22 +17,25 @@ function toggleMenu() {
 
 const banner = document.getElementById("banner");
 if (d.getDay() == 5) {
+    let newChild = document.createElement("p");
+    newChild.innerHTML = `<p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>`
+    document.querySelector(div.banner).appendChild(newChild);
     document.getElementById("banner").style.display = "block";
 }
-else {
-    document.getElementById("banner").style.display = "none";
-}
+// else {
+//     document.getElementById("banner").style.display = "none";
+// }
 
-var newChild = document.createElement("p");
-var parent = document.getElementById("banner");
-newChild.innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
-if (d.getDay() == 5) {
-    parent.appendChild(newChild);
-    newChild.style.display = "block";
-    newChild.style.textAlign = "center";
-}
-else {
-    newChild.style.display = "none"; 
-}
+// var newChild = document.createElement("p");
+// var parent = document.getElementById("banner");
+// newChild.innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
+// if (d.getDay() == 5) {
+//     parent.appendChild(newChild);
+//     newChild.style.display = "block";
+//     newChild.style.textAlign = "center";
+// }
+// else {
+//     newChild.style.display = "none"; 
+// }
 
 

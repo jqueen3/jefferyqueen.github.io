@@ -19,10 +19,10 @@ fetch(requestURL)
 
         h2.innerHTML = `${town.name}`
         p1.innerHTML = `${town.motto}`
-        p2.innerHTML = `<strong>Year Founded: ${town.yearFounded} </strong>`
-        p3.innerHTML = `<strong>Current Population: ${town.currentPopulation}</strong>`
-        p4.innerHTML = `<strong>Average Rainfall: ${town.averageRainfall} inches</strong>`
-        img.innerHTML = `<img src ="${town.photo}" alt="Landscape in ${town.name}">`
+        p2.innerHTML = `<strong>Year Founded:</strong> ${town.yearFounded}`
+        p3.innerHTML = `<strong>Current Population:</strong> ${town.currentPopulation}`
+        p4.innerHTML = `<strong>Average Rainfall:</strong> ${town.averageRainfall} inches`
+        img.innerHTML = `<img src ="images/${town.photo}" alt="Landscape in ${town.name}">`
 
         card.appendChild(h2);
         card.appendChild(p1);
