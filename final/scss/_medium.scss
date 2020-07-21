@@ -1,0 +1,30 @@
+header button {
+    display: none;
+}
+
+header ul.hide {
+    display: block;
+}
+
+header ul {
+    margin-left: 2%;
+}
+
+header ul li {
+    float: left;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    border: none;
+    background-color: antiquewhite;
+    color: $color1;
+    border-radius: 25% 10%;
+    margin: .5rem 4px .5rem 2px;
+    padding: .8rem 1rem;
+}
+
