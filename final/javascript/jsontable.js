@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://jqueen3.github.io/jefferyqueen.github.io/final/data/data.json';
 
 fetch(requestURL)
     .then(function(response) {
