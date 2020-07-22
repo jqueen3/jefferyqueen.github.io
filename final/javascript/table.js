@@ -16,8 +16,8 @@ fetch(requestURL)
             let td5 = document.createElement('td');
             let td6 = document.createElement('td');
 
-            td1.innerHTML = rental.name;
-            td2.innerHTML = rental.maxpersons;
+            td1.innerHTML = rental.vehicle;
+            td2.innerHTML = rental.capacity;
             td3.innerHTML = `$${rental.resHalf}`;
             td4.innerHTML = `$${rental.resFull}`;
             td5.innerHTML = `$${rental.walkHalf}`;
@@ -30,6 +30,6 @@ fetch(requestURL)
             tr.appendChild(td5);
             tr.appendChild(td6);
 
-            document.getElementsByClassName('jsonTable').appendChild(tr);
+            document.getElementById('jsonTable').appendChild(tr);
         });
     });
