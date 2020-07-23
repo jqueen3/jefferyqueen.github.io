@@ -34,6 +34,7 @@ header ul {
     margin: 0;
 }
 
+
 header ul li a {
     display: inline-flex;
     border: none;
@@ -227,6 +228,7 @@ legend {
     padding: .5rem;
 }
 
+
 .buttonsDiv a {
     margin: .5rem;
     padding: .2rem;
@@ -268,6 +270,9 @@ td:nth-of-type(2n+2) {
     border: 2px solid $color1;
 }
 
+footer a {
+    padding: .4rem;
+}
 
 
 

@@ -609,6 +609,9 @@ th:nth-of-type(2n+2),
 td:nth-of-type(2n+2) {
   border: 2px solid #f27141; }
 
+footer a {
+  padding: .4rem; }
+
 /*------ Clearfix: force an Element not to collapse -------*/
 .clearfix:after {
   content: "";
