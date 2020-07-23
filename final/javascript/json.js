@@ -9,7 +9,7 @@ fetch(requestURL)
   
         rentals.forEach(rental => {
                 
-            let div1 = document.createElement('div');
+            let div = document.createElement('div');
             let image = document.createElement('img'); 
             let sect = document.createElement('section');
             let h3 = document.createElement('h3');
@@ -25,15 +25,11 @@ fetch(requestURL)
             p3.innerHTML = `Reservation 3+ Hours: $${rental.resFull}`;
             p4.innerHTML = `Walk-In: $${rental.walkHalf}`;
             p5.innerHTML = `Walk-In 3+ Hours: $${rental.walkFull}`;
-            image.setAttribute('src', rental.photo);
+            image.setAttribute('src', rental.pic);
             image.setAttribute('alt', rental.vehicle);
-            image.setAttribute('class', "rentalPics");
-            sect.setAttribute('class', "jsonSection");
-            div1.setAttribute('class', "rentalDivs");
-            h3.setAttribute('class', "rentalH3");
 
-            div1.appendChild(sect);
-            div1.appendChild(image);
+            div.appendChild(sect);
+            div.appendChild(image);
             sect.appendChild(h3);
             sect.appendChild(p1);
             sect.appendChild(p2);

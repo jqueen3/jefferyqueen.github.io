@@ -29,6 +29,26 @@ header ul li a {
 }
 
 iframe {
-    max-width: 50%;
+    max-width: 98%;
 }
 
+.index main div:nth-of-type(1) {
+    border: none;
+}
+
+.index main div {
+    display: flex;
+    border: 2px solid $color1;
+    padding: 1rem;
+    border-radius: 15%;
+
+}
+
+.index main div:nth-of-type(3) {
+    flex-direction: row-reverse;
+    border: 2px solid $color2;
+}
+
+main img {
+    width: 40%;
+}

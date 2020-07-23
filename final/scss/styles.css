@@ -467,14 +467,15 @@ main h6 {
   padding: .4rem 1%; }
 
 main img {
-  width: 40%; }
+  width: 98%; }
 
 main p {
   padding: .8rem 2%; }
 
 footer {
   text-align: center;
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  width: 100%; }
 
 footer p {
   margin: 0; }
@@ -511,6 +512,103 @@ main div.whatsapp img {
 .whatsapp .right {
   flex: 1; }
 
+fieldset label {
+  display: block;
+  padding: .2rem; }
+
+.contact .address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #43AED9;
+  border-radius: 25% 10%;
+  margin: .3rem;
+  padding: 1rem; }
+
+.contact .address p {
+  margin: 4px;
+  padding: 4px; }
+
+.contact .address h3 {
+  margin: 4px;
+  padding: 4px; }
+
+form fieldset {
+  border: 2px solid #f27141;
+  border-radius: 30px 100px 30px 30px;
+  margin: .4rem; }
+
+.contact form fieldset:nth-child(2) {
+  border: none; }
+
+legend {
+  text-align: center;
+  padding: 2px;
+  font-weight: bold; }
+
+.submitButton {
+  text-align: center; }
+
+.submit {
+  border: 2px solid #43AED9;
+  border-radius: 10px 100px / 120px;
+  background-color: #f2f2f2;
+  color: #43AED9; }
+
+.contact p {
+  margin: .05rem; }
+
+.reservations form fieldset:nth-last-child(1) {
+  border: none; }
+
+.reservations form fieldset:nth-last-of-type(2) {
+  border-radius: 30px 100px 30px 30px; }
+
+.pre-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem; }
+
+.buttonsDiv {
+  display: flex;
+  justify-content: center;
+  padding: .5rem; }
+
+.buttonsDiv a {
+  margin: .5rem;
+  padding: .2rem;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  text-decoration: none; }
+
+.buttonsDiv a:hover {
+  background-color: antiquewhite;
+  color: #43AED9;
+  border: 3px solid #f27141; }
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #f27141;
+  font-size: 40px;
+  margin: 0; }
+
+.tHead {
+  font-size: 26px; }
+
+th,
+td {
+  border: 2px solid #43AED9;
+  margin: 0;
+  padding: 4px;
+  text-align: center; }
+
+th:nth-of-type(2n+2),
+td:nth-of-type(2n+2) {
+  border: 2px solid #f27141; }
+
 /*------ Clearfix: force an Element not to collapse -------*/
 .clearfix:after {
   content: "";
@@ -543,7 +641,23 @@ main div.whatsapp img {
     padding: .8rem 1rem; }
 
   iframe {
-    max-width: 50%; } }
+    max-width: 98%; }
+
+  .index main div:nth-of-type(1) {
+    border: none; }
+
+  .index main div {
+    display: flex;
+    border: 2px solid #f27141;
+    padding: 1rem;
+    border-radius: 15%; }
+
+  .index main div:nth-of-type(3) {
+    flex-direction: row-reverse;
+    border: 2px solid #43AED9; }
+
+  main img {
+    width: 40%; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header ul li a {

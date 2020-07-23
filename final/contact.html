@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="contact">
     <header>
         <img src="images/logo.png" alt="logo">
         <button onclick="toggleMenu()">&#9776;</button>
@@ -30,28 +30,29 @@
         <form method="get" action="contactconfirmation.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="formLabel">Full Name* <input type="text" name="fullname" pattern="[A-Z a-z]{5,}"
+                <label class="label">*Full Name <input type="text" name="fullname" pattern="[A-Z a-z]{5,}"
                         required></label>
-                <label class="formLabel">Email* <input type="email" name="email" placeholder="someone@something.com"
+                <label class="label">*Email <input type="email" name="email" placeholder="someone@something.com"
                         required></label>
-                <label class="top">Enter Comments Here: <textarea name="comments"></textarea></label>
+                <label class="top">Comments: <textarea name="comments"></textarea></label>
             </fieldset>
-            <fieldset class="reservationSubmit">
-                <input type="submit" value="Send Your Message" class="submitButton">
+            <fieldset class="submitButton">
+                <input type="submit" value="Send Your Message" class="submit">
             </fieldset>
         </form>
         <div id="contactDiv">
-            <div class="contactInfo">
-                <section class="contactSection">
+            <h3>Come See Us</h3>
+            <div class="addressDiv">
+                <section class="address">
                     <h3>Centro de Cozumel Location</h3>
                     <p>722 Avenida Dos Ruedas, Centro, 77600</p>
                     <p>San Miguel de Cozumel, Q.R., Mexico</p>
                 </section>
             </div>
-            <div class="contactInfo">
-                <section class="contactSection">
+            <div class="addressDiv">
+                <section class="address">
                     <h3>Playa del Carmen Location</h3>
-                    <p>10 Avenida Nte., Centro, 77710</p>
+                    <p>10 Avenida Nte, Centro, 77710</p>
                     <p>Playa del Carmen, Q.R., Mexico</p>
                 </section>
                 <iframe
@@ -72,14 +73,14 @@
 
     <footer>
         <div class="pre-footer">
-            <p>Contact Info | </p>
+            <p>Phone: +52-356-345-2341 | Email: scoots@scoots.com | </p>
             <a href="tours.html">Tours</a>
             <a href="rentals.html">Rentals</a>
-        </div>
 
-        <a href="facebook.com" target="_blank"><img src="images/icons8-facebook-circled-64.png"></a>
-        <a href="youtube.com" target="_blank"><img src="images/icons8-play-button-circled-64.png"></a>
-        <a href="twitter.com" target="_blank"><img src="images/icons8-twitter-circled-64 (1).png"></a>
+        <a href="facebook.com" ><img src="images/icons8-facebook-circled-64.png"></a>
+        <a href="youtube.com" ><img src="images/icons8-play-button-circled-64.png"></a>
+        <a href="twitter.com" ><img src="images/icons8-twitter-circled-64 (1).png"></a>
+        </div>
     </footer>
 
     <script src="javascript/script.js"></script>

@@ -77,6 +77,7 @@ body {
     flex-direction: column;
     min-height: fit-content;
 }
+
 p {
     font-size: 18px;
 }
@@ -91,7 +92,7 @@ main h6 {
 }
 
 main img {
-    width: 40%;
+    width: 98%;
 }
 
 main p {
@@ -101,6 +102,7 @@ main p {
 footer {
     text-align: center;
     color: $color3;
+    width: 100%;
 }
 
 footer p {
@@ -120,6 +122,7 @@ footer:link {
 
 footer {
     background-color: $color2;
+    
 }
 
 main a.tourButton {
@@ -147,6 +150,135 @@ main div.whatsapp img {
 .whatsapp .right {
     flex: 1;
 }
+
+fieldset label {
+    display: block;
+    padding: .2rem;
+}
+
+.contact .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid $color2;
+    border-radius: 25% 10%;
+    margin: .3rem;
+    padding: 1rem;
+}
+
+.contact .address p {
+    margin: 4px;
+    padding: 4px;
+}
+
+.contact .address h3 {
+    margin: 4px;
+    padding: 4px;
+}
+
+form fieldset {
+    border: 2px solid $color1;
+    border-radius: 30px 100px 30px 30px;
+    margin: .4rem;
+}
+
+.contact form fieldset:nth-child(2) {
+    border: none;
+}
+
+legend {
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+.submit {
+    border: 2px solid $color2;
+    border-radius: 10px 100px / 120px;
+    background-color: $color3;
+    color: $color2;
+}
+
+.contact p {
+    margin: .05rem;
+}
+
+.reservations form fieldset:nth-last-child(1) {
+    border: none;
+}
+
+.reservations form fieldset:nth-last-of-type(2) {
+    border-radius: 30px 100px 30px 30px;
+}
+
+.pre-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.buttonsDiv a {
+    margin: .5rem;
+    padding: .2rem;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: $color3;
+    text-decoration: none;
+}
+
+.buttonsDiv a:hover {
+    background-color: antiquewhite;
+    color: $color2;
+    border: 3px solid $color1;
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    color: $color1;
+    font-size: 40px;
+    margin: 0;
+}
+
+.tHead {
+    font-size: 26px;
+}
+
+th,
+td {
+    border: 2px solid $color2;
+    margin: 0;
+    padding:4px;
+    text-align: center;
+}
+
+th:nth-of-type(2n+2),
+td:nth-of-type(2n+2) {
+    border: 2px solid $color1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

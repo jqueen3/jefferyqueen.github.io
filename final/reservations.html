@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="reservations">
     <header>
         <img src="images/logo.png" alt="logo">
         <button onclick="toggleMenu()">&#9776;</button>
@@ -29,16 +29,16 @@
         <h2>Reservations</h2>
 
         <table id="jsonTable">
-            <tr class="tableRow">
-                <th class="tableHead" colspan='6'>Rental Pricing</th>
+            <tr class="tRow">
+                <th class="tHead" colspan='6'>Pricing</th>
             </tr>
-            <tr class="tableRow">
+            <tr class="tRow">
                 <th>Rental Type</th>
-                <th>Max Persons</th>
-                <th>Reservation Half Day (3 hrs)</th>
-                <th>Reservation Full Day</th>
-                <th>Walk In Half Day (3hrs)</th>
-                <th>Walk-In Full Day</th>
+                <th>Vehicle Capacity</th>
+                <th>Reservation</th>
+                <th>Reservation 3+ Hours</th>
+                <th>Walk In</th>
+                <th>Walk-In 3+ Hours</th>
             </tr>
         </table>
 
@@ -138,8 +138,8 @@
                 <li>Rentals may be returned to either location.</li>
             </ol>
 
-            <fieldset class="reservationSubmit">
-                <input class="submitButton" type="submit" value="Submit Reservation Request">
+            <fieldset class="submitButton">
+                <input class="submit" type="submit" value="Submit Reservation Request">
             </fieldset>
         </form>
 
@@ -147,14 +147,14 @@
 
     <footer>
         <div class="pre-footer">
-            <p>Contact Info | </p>
+            <p>Phone: +52-356-345-2341 | Email: scoots@scoots.com | </p>
             <a href="tours.html">Tours</a>
             <a href="rentals.html">Rentals</a>
-        </div>
 
         <a href="facebook.com" target="_blank"><img src="images/icons8-facebook-circled-64.png"></a>
         <a href="youtube.com" target="_blank"><img src="images/icons8-play-button-circled-64.png"></a>
         <a href="twitter.com" target="_blank"><img src="images/icons8-twitter-circled-64 (1).png"></a>
+        </div>
     </footer>
 
     <script src="javascript/script.js"></script>
